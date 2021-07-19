@@ -13,7 +13,7 @@ import {
 let fetchMovies = () => {
     return (dispatch) => {
         dispatch({ type: FETCH_MOVIES_REQUEST });
-        let dataURL = `https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json`;
+        let dataURL = `https://gist.githubusercontent.com/krushnachandradash654/f3ede7cc6fda4a2866833848e13a4d32/raw/469c38e0d8e20e44c210d31ff7974f11ccc7bca8/video-stream`;
         Axios.get(dataURL).then((response) => {
             let allMovies = response.data;
             let movies = allMovies.filter((movie) => {
@@ -30,7 +30,7 @@ let fetchMovies = () => {
 let fetchSeries = () => {
     return (dispatch) => {
         dispatch({ type: FETCH_SERIES_REQUEST });
-        let dataURL = `https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json`;
+        let dataURL = `https://gist.githubusercontent.com/krushnachandradash654/f3ede7cc6fda4a2866833848e13a4d32/raw/469c38e0d8e20e44c210d31ff7974f11ccc7bca8/video-stream`;
         Axios.get(dataURL).then((response) => {
             let allMovies = response.data;
             let series = allMovies.filter((serie) => {
