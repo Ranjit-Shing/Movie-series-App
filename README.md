@@ -2,7 +2,6 @@
 ## Table of contents
 * [General info](#general-info)
 * [Setup](#setup)
-* [Conclusion](#conclusion)
 
 ## General info
 Develop a simple Movie app using reactjs
@@ -25,8 +24,5 @@ To run this project, install it locally using npm:
 $ npx create-react-app (App_Name)
 $ npm start
 ```
-## Conclusion
-Sometimes https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json this json can't work properly. At last i try to my level best solve some problem and make a attractive movie app with react js.
-
 
 ### Thank All
